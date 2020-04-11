@@ -7,13 +7,14 @@
 
 [Inferno] is the fast, React-like library for building high-performance user interfaces. `storeon-inferno` package helps to connect store with Inferno to provide a better performance and developer experience while remaining so tiny.
 
-- **Size**. 177 bytes (+ Storeon itself) instead of 485 bytes (minified and gzipped).
+- **Size**. 377 bytes (+ Storeon itself) instead of ~10kB of [inferno-redux] (minified and gzipped).
 - **Ecosystem**. Many additional [tools] can be combined with a store.
 - **Speed**. It tracks what parts of state were changed and re-renders only components based on the changes.
 
 [storeon]: https://github.com/storeon/storeon
 [tools]: https://github.com/storeon/storeon#tools
 [inferno]: https://github.com/infernojs/inferno
+[inferno-redux]: https://github.com/infernojs/inferno/tree/master/packages/inferno-redux
 [size limit]: https://github.com/ai/size-limit
 [demo]: https://codesandbox.io/s/admiring-beaver-edi8m
 [article]: https://evilmartians.com/chronicles/storeon-redux-in-173-bytes
