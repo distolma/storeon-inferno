@@ -13,6 +13,14 @@ class Child extends Component {
   }
 }
 
+beforeAll(() => {
+  jest.spyOn(console, 'error').mockImplementation(() => {})
+})
+
+afterAll(() => {
+  console.error.mockRestore()
+})
+
 it('connects component to store', () => {
   let store1 = createStoreon([])
   let store2 = createStoreon([])
