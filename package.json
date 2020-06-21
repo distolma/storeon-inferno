@@ -1,6 +1,6 @@
 {
   "name": "storeon-inferno",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A tiny (377 bytes) connector for Storeon and Inferno",
   "main": "index.js",
   "types": "index.d.ts",
