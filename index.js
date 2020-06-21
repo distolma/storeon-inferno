@@ -4,7 +4,7 @@ const { Component, createComponentVNode, normalizeProps } = require('inferno')
 const COMPONENT_UNKNOWN_FLAG = 2
 
 function memo (factory) {
-  let state = { }
+  let state = {}
 
   return args => {
     if (state._args !== args) {
@@ -53,7 +53,7 @@ let connectStoreon = (...keys) => {
 
       this.state = { tick: 0 }
       this.storeonPropsFactory = memo(() => {
-        let data = { }
+        let data = {}
         let state = this.context.storeon.get()
         keys.forEach(key => {
           data[key] = state[key]
@@ -67,7 +67,7 @@ let connectStoreon = (...keys) => {
       if (process.env.NODE_ENV !== 'production' && !this.context.storeon) {
         throw new Error(
           'Could not find storeon context value. ' +
-          'Please ensure the component is wrapped in a <StoreonProvider>'
+            'Please ensure the component is wrapped in a <StoreonProvider>'
         )
       }
     }
@@ -87,11 +87,10 @@ let connectStoreon = (...keys) => {
       let storeonProps = this.storeonPropsFactory(state.tick)
 
       return normalizeProps(
-        createComponentVNode(
-          COMPONENT_UNKNOWN_FLAG,
-          WrappedComponent,
-          { ...props, ...storeonProps }
-        )
+        createComponentVNode(COMPONENT_UNKNOWN_FLAG, WrappedComponent, {
+          ...props,
+          ...storeonProps
+        })
       )
     }
   }
