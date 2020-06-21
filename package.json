@@ -9,7 +9,7 @@
   "license": "MIT",
   "sideEffects": false,
   "engines": {
-    "node": ">=8.3.0"
+    "node": ">=10"
   },
   "files": [
     "index.js",
@@ -27,7 +27,7 @@
   },
   "peerDependencies": {
     "inferno": "^7.0.0",
-    "storeon": "^2.0.0"
+    "storeon": "^3.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.10.3",
