@@ -2757,6 +2757,11 @@ color@^3.0.0:
     color-convert "^1.9.1"
     color-string "^1.5.2"
 
+colorette@^1.2.0:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/colorette/-/colorette-1.2.1.tgz#4d0b921325c14faf92633086a536db6e89564b1b"
+  integrity sha512-puCDz0CzydiSYOrnXpz/PKd69zRrribezjtE9yd4zvytoRc8+RY/KJPvtPFKZS3E3wP6neGyMe0vOTlHO5L3Pw==
+
 combined-stream@^1.0.6, combined-stream@~1.0.6:
   version "1.0.8"
   resolved "https://registry.yarnpkg.com/combined-stream/-/combined-stream-1.0.8.tgz#c3d45a8b34fd730631a110a8a2520682b31d5a7f"
@@ -3436,14 +3441,14 @@ dotenv@^5.0.0:
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-5.0.1.tgz#a5317459bd3d79ab88cff6e44057a6a3fbb1fcef"
   integrity sha512-4As8uPrjfwb7VXC+WnLCbXK7y+Ueb2B3zgNCePYfhxS1PYeaO1YTeplffTEcbfLhvFNGLAz90VvJs9yomG7bow==
 
-dual-publish@^0.10.5:
-  version "0.10.5"
-  resolved "https://registry.yarnpkg.com/dual-publish/-/dual-publish-0.10.5.tgz#e8c4bb2b3d5fd6430dd83b1807d9718c03539361"
-  integrity sha512-hfAKvL4nTwvwgZjAV/FN345oEjNRxqkp4erstXoRlnPTuCAJaRdgY/Hv26F12m8Rxaz6SUFSTijNym1xBR80JA==
+dual-publish@^0.11.0:
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/dual-publish/-/dual-publish-0.11.0.tgz#497d777407c7dd3c35699004c1c0b919b5d71e69"
+  integrity sha512-nDaLFplyBeYQanGidwiDatQz3vfLgE10rSGK3ahA0abJk6+4nuwKxsJD573+Xcl79j6TVHsJBRhTY7gHaTDsGg==
   dependencies:
     clean-publish "^1.1.7"
+    colorette "^1.2.0"
     globby "^11.0.1"
-    kleur "^4.0.0"
     line-column "^1.0.2"
     rimraf "^3.0.2"
 

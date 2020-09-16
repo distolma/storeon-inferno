@@ -38,7 +38,7 @@
     "babel-jest": "^26.0.1",
     "babel-plugin-inferno": "^6.1.1",
     "babel-plugin-transform-class-properties": "^6.24.1",
-    "dual-publish": "^0.10.5",
+    "dual-publish": "^0.11.0",
     "eslint": "^7.3.0",
     "eslint-config-standard": "^14.1.1",
     "eslint-plugin-import": "^2.21.2",
