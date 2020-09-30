@@ -32,7 +32,7 @@
   "devDependencies": {
     "@babel/core": "^7.10.3",
     "@babel/preset-env": "^7.10.3",
-    "@logux/eslint-config": "^39.0.3",
+    "@logux/eslint-config": "^40.0.0",
     "@size-limit/dual-publish": "^4.5.1",
     "@size-limit/preset-small-lib": "^4.5.1",
     "babel-jest": "^26.0.1",
